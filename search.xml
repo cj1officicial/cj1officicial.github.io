@@ -8,7 +8,7 @@
       <link href="/2023/04/12/%E8%AE%A1%E7%BD%91/"/>
       <url>/2023/04/12/%E8%AE%A1%E7%BD%91/</url>
       
-        <content type="html"><![CDATA[<h1 id="计网学习"><a href="#计网学习" class="headerlink" title="计网学习"></a>计网学习</h1><h3 id="第一章计算机网络和因特网"><a href="#第一章计算机网络和因特网" class="headerlink" title="第一章计算机网络和因特网"></a>第一章计算机网络和因特网</h3>]]></content>
+        <content type="html"><![CDATA[<h1 id="计网学习"><a href="#计网学习" class="headerlink" title="计网学习"></a>计网学习</h1><h2 id="第一章-计算机网络和因特网"><a href="#第一章-计算机网络和因特网" class="headerlink" title="第一章 计算机网络和因特网"></a>第一章 计算机网络和因特网</h2><blockquote><p>目标：了解基本属于和概念、掌握网络的基本原理</p></blockquote><h3 id="1-1什么是Internet？"><a href="#1-1什么是Internet？" class="headerlink" title="1.1什么是Internet？"></a>1.1什么是Internet？</h3><h5 id="网络："><a href="#网络：" class="headerlink" title="网络："></a>网络：</h5><pre><code>节点和边的关系</code></pre><h5 id="计算机网络："><a href="#计算机网络：" class="headerlink" title="计算机网络："></a>计算机网络：</h5><pre><code>联网的计算机系统。  包括主机节点（电脑、手机等）是数据的源和目标，数据交换节点（路由器、交换机等）数据中转的节点，  链路（连接节点）：接入链路（主机连到互联网），主干链路（路由器间的链路）</code></pre><h5 id="互联网："><a href="#互联网：" class="headerlink" title="互联网："></a>互联网：</h5><pre><code>从构成的角度看：包括了节点和边。是以TCP、IP协议为主支撑的用的人最多的网络。互联网标准：RFC、IETF。  从服务的角度看：是分布式应用以及为分布式应用提供通讯的基础设施（方式为API）。  </code></pre><h5 id="协议："><a href="#协议：" class="headerlink" title="协议："></a>协议：</h5><pre><code>不同层有不同协议。传输层：TCP，UDP 网络层：IP，路由选择协议 链路层物理层：.....  规范了语法（发请求的格式服从http）、语义（按规范解释报文）、时序（收完之后发）、动作（收、发）。  </code></pre><blockquote><p>协议的定义：<strong>对等层</strong>的实体在通信的过程中应该遵循的规则的集合</p></blockquote><blockquote><p>网络结构：网络边缘（主机，应用程序）、网络核心（互联着的路由器，交换机）、接入网物理媒体（有线，无线通信链路）</p></blockquote><h3 id="1-2网络边缘："><a href="#1-2网络边缘：" class="headerlink" title="1.2网络边缘："></a>1.2网络边缘：</h3><h5 id="应用进程间的通信模式："><a href="#应用进程间的通信模式：" class="headerlink" title="应用进程间的通信模式："></a>应用进程间的通信模式：</h5><pre><code>1.CS模式（客户端服务器模式）web 问题：可扩展性差，超载荷时能力断崖式下降  2.P2P模式（对等模式）迅雷 每个节点既是客户端也是服务器</code></pre><h5 id="基础设施为网络应用提供的服务："><a href="#基础设施为网络应用提供的服务：" class="headerlink" title="基础设施为网络应用提供的服务："></a>基础设施为网络应用提供的服务：</h5><pre><code>1.面向连接服务  两个应用进程的通信开始前先建立连接（握手）为后面的通信做好准备 如TCP服务（可靠的：发送的和收到的一样，流量控制：控制接收速度和发送速度，拥塞控制：在堵塞时让发送速度降低）  2.无连接服务    不用握手 如UDP服务（不可靠，没有流量控制和拥塞控制，把主机到主机细分为进程到进程，实时）</code></pre><h3 id="1-3网络核心："><a href="#1-3网络核心：" class="headerlink" title="1.3网络核心："></a>1.3网络核心：</h3><h4 id="数据传输的方法："><a href="#数据传输的方法：" class="headerlink" title="数据传输的方法："></a>数据传输的方法：</h4><pre><code>电路交换：资源独享（保障了性能但会有资源浪费）网络资源被分成片（频分、时分TDM、波分）</code></pre><h2 id="第二章-应用层"><a href="#第二章-应用层" class="headerlink" title="第二章 应用层"></a>第二章 应用层</h2><h2 id="第三章-传输层"><a href="#第三章-传输层" class="headerlink" title="第三章 传输层"></a>第三章 传输层</h2><h2 id="第四章-网络层：数据平面"><a href="#第四章-网络层：数据平面" class="headerlink" title="第四章 网络层：数据平面"></a>第四章 网络层：数据平面</h2><h2 id="第五章-网络层：控制平面"><a href="#第五章-网络层：控制平面" class="headerlink" title="第五章 网络层：控制平面"></a>第五章 网络层：控制平面</h2><h2 id="第六章-数据链路层和局域网"><a href="#第六章-数据链路层和局域网" class="headerlink" title="第六章 数据链路层和局域网"></a>第六章 数据链路层和局域网</h2>]]></content>
       
       
       
@@ -33,9 +33,9 @@
     
     
     <entry>
-      <title>音乐</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
+      <title>电影</title>
+      <link href="/movies/index.html"/>
+      <url>/movies/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -44,11 +44,11 @@
     
     
     <entry>
-      <title>电影</title>
-      <link href="/movies/index.html"/>
-      <url>/movies/index.html</url>
+      <title></title>
+      <link href="/css/custom.css"/>
+      <url>/css/custom.css</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[/* 页脚与头图透明 */#footer {    background: transparent !important;  }  #page-header {    background: transparent !important;  }    /* 白天模式遮罩透明 */  #footer::before {    background: transparent !important;  }  #page-header::before {    background: transparent !important;  }    /* 夜间模式遮罩透明 */  [data-theme="dark"] #footer::before {    background: transparent !important;  }  [data-theme="dark"] #page-header::before {    background: transparent !important;  }/* 翻页按钮居中 */#pagination {    width: 100%;    margin: auto;  }/* 一级菜单居中 */#nav .menus_items {    position: absolute !important;    width: fit-content !important;    left: 50% !important;    transform: translateX(-50%) !important;  }  /* 子菜单横向展示 */  #nav .menus_items .menus_item:hover .menus_item_child {    display: flex !important;  }  /* 这里的2是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改 */  .menus_items .menus_item:nth-child(2) .menus_item_child {    left: -125px;  }]]></content>
       
     </entry>
     
@@ -66,9 +66,9 @@
     
     
     <entry>
-      <title>tags</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>友链</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -77,9 +77,20 @@
     
     
     <entry>
-      <title>友链</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
