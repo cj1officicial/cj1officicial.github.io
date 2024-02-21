@@ -8,7 +8,7 @@
       <link href="/2024/02/21/Java%E5%8F%8D%E5%B0%84/"/>
       <url>/2024/02/21/Java%E5%8F%8D%E5%B0%84/</url>
       
-        <content type="html"><![CDATA[<h1 id="动态代理"><a href="#动态代理" class="headerlink" title="动态代理"></a>动态代理</h1><p>在不修改原来代码的前提下为代码增加功能</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="动态代理"><a href="#动态代理" class="headerlink" title="动态代理"></a>动态代理</h1><p>作用：在不修改原来代码的前提下为代码增加功能</p><p>定义一个接口在这个接口中写入需要代理的方法（抽象）<br>在正式类中实现这个接口</p><h3 id="Proxy-类，创建一个代理"><a href="#Proxy-类，创建一个代理" class="headerlink" title="Proxy 类，创建一个代理"></a>Proxy 类，创建一个代理</h3><p>createProxy 方法：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//</span></span><br><span class="line">形参：被代理的对象</span><br><span class="line">返回值：创建的代理</span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> 接口 createProxy(正式类 , ---)</span><br></pre></td></tr></table></figure>]]></content>
       
       
       
