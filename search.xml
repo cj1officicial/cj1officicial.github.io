@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>网安</title>
+      <link href="/2024/02/29/%E7%BD%91%E5%AE%89/"/>
+      <url>/2024/02/29/%E7%BD%91%E5%AE%89/</url>
+      
+        <content type="html"><![CDATA[<h1 id="查看开启端口"><a href="#查看开启端口" class="headerlink" title="查看开启端口"></a>查看开启端口</h1><p>Windows：netstat -ano</p><p>Linux：netstat -anltup</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Java IO</title>
       <link href="/2024/02/24/Java%20IO/"/>
       <url>/2024/02/24/Java%20IO/</url>
